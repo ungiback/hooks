@@ -1,19 +1,19 @@
-import "./styles.css";
-import ReactDOM from "react-dom";
-import { useState } from "react";
+// import "./styles.css";
+// import ReactDOM from "react-dom";
+// import { useState } from "react";
 
-const content = [
-  {
-    tab: "Section 1",
-    content: "I'm the content of the Section 1"
-  },
-  {
-    tab: "Section 2",
-    content: "I'm the content of the Section 2"
-  }
-];
+// const content = [
+//   {
+//     tab: "Section 1",
+//     content: "I'm the content of the Section 1"
+//   },
+//   {
+//     tab: "Section 2",
+//     content: "I'm the content of the Section 2"
+//   }
+// ];
 
-const useTabs = (initialTab, allTabs) => {
+export const useTabs = (initialTab, allTabs) => {         //const useTabs = (initialTab, allTabs) => {
   if (!allTabs || !Array.isArray(allTabs)) {
     return;
   }
@@ -23,15 +23,15 @@ const useTabs = (initialTab, allTabs) => {
     changeItem: setCurrentIndex
   };
 };
-const App = () => {
-  const { currentItem, changeItem } = useTabs(0, content);
-  return (
-    <div className="App">
-      {content.map((section, index) => (    
-        <button onClick={() => changeItem(index)}>{section.tab}</button>   //section = content[index]
-      ))}
-      <div>{currentItem.content}</div>
-    </div>
-  );
-};
-export default App;
+// const App = () => {
+//   const { currentItem, changeItem } = useTabs(0, content);
+//   return (
+//     <div className="App">
+//       {content.map((section, index) => (    
+//         <button onClick={() => changeItem(index)}>{section.tab}</button>   //section = content[index]
+//       ))}
+//       <div>{currentItem.content}</div>
+//     </div>
+//   );
+// };
+// export default App;
