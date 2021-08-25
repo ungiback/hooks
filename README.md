@@ -5,12 +5,12 @@
 - [x] useInput
 - [x] useTabs
 - [x] useTitle
-- [] useClick
-- [] usePageLeave
-- [] useFadeIn
-- [] use
-- [] use
-- [] use
-- [] use
+- [ ] useClick
+- [ ] usePageLeave
+- [ ] useFadeIn
+- [ ] use
+- [ ] use
+- [ ] use
+- [ ] use
 
 
