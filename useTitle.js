@@ -8,7 +8,7 @@ export const useTitle = (initialTitle) => {
         const htmlTitle = document.querySelector("title");
         //document.querySelector "title"와 같은 요소(텍스트?)를 갖는 첫번째를 선택 그러므로 <title>제목</title>를 선택하고 
         htmlTitle.innerText = title;
-        //innerText title안에 '제목'을 읽어 온다. <title>title</title> 로 바꿔준다. 
+        //innerText title태그 안에 '제목'을 읽어 온다. <title>title</title> 로 바꿔준다. 
     };
     useEffect(updateTitle, [title]);
     return settitle;

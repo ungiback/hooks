@@ -1,0 +1,12 @@
+useEffect()는
+componentDidMount(), componentDidUpdate(), componentWillUnmount() 의 역할을 한다.
+useEffect()의
+1번째 인자-function으로서의 effct
+■ componentDidMount()와 기능이 비슷함
+2번쨰 인자-deps (dependency)
+■ useEffect()가 deps리스트에 있는 값이 변할 때만 실행되게 함
+■ componentDidUpdate()와 기능이 비슷함
+
+useRef()는 'current'라는 요소를 갖는 객체를 반환한다. Object{current:<h1>내용</h1>}
+
+addEventListener()는 document의 특정요소(Id,class,tag 등등..) event(ex - click하면 함수를 실행하라, 마우스를 올리면 함수를 실행하라 등등.. )를 등록할 때 사용합니다.
