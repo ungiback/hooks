@@ -6,11 +6,9 @@
 - [x] useTabs
 - [x] useTitle
 - [x] useClick
-- [ ] usePageLeave
-- [ ] useFadeIn
+- [x] useFadeIn
+- [x] usePageLeave
+- [x] useBeforeLeave
+- [x] useFadeIn
+- [x] useNetwork
 - [ ] use
-- [ ] use
-- [ ] use
-- [ ] use
-
-
