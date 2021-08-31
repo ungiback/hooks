@@ -11,4 +11,6 @@
 - [x] useBeforeLeave
 - [x] useFadeIn
 - [x] useNetwork
-- [ ] use
+- [x] useScroll
+- [x] useNotification
+- [ ] useAxios
