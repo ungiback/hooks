@@ -13,4 +13,4 @@
 - [x] useNetwork
 - [x] useScroll
 - [x] useNotification
-- [ ] useAxios
+- [x] useAxios
